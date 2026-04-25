@@ -80,8 +80,8 @@ class MovieManager:
             for m in movies:
                 print(m)
 
-        # if not genre:
-        #     print("Нет тако жанра")
+        else:
+            print("Нет тако жанра")
 
     def get_movie_by_title(self, title):
         session = self.Session()
